@@ -1,11 +1,12 @@
 backend:
   name: git-gateway
   branch: master
-  accept_roles:
+  accept_roles: #optional - accepts all users if left out
     - admin
 
 media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
+publish_mode: editorial_workflow
 
 collections:
   - name: "posts"
