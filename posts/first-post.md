@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: first post
 desc: The First post
 date: 2022-10-03
-baseImage: /images/uploads/
+baseImage: /images/uploads/image1.jpg
 ---
 
 
