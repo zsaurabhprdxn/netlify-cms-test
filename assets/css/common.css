@@ -12,6 +12,11 @@ body {
     background-color: #aaaaca;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     color: #e7e5e5;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

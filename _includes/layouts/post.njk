@@ -3,7 +3,12 @@ layout: layouts/base.njk
 ---
 
 <h2>{{title}}</h2>
-<div class="post-content">
-    <img src='{{baseImage | url}}' title='image' class="post-img">
-    <p>{{content | safe }}</p>
+<div class="post-container">
+    <div class="post-hero-image">
+        <img src='{{baseImage | url}}' title='{{title}}'>
+    </div>
+    <div class="post-content">
+        <p>{{content | safe }}</p>
+    </div>
+    <a href='/posts' title='blogs page' class="btn-back">Back to blogs</a>
 </div>

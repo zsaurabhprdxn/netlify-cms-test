@@ -1,6 +1,11 @@
-.post-img {
+.post-hero-image,
+.post-content {
     width: 50%;
-    height: auto;
+    margin: 0 auto;
+}
+
+.post-content {
+    font-style: italic;
 }
 
 .blogs-list {
@@ -9,3 +14,27 @@
     list-style: none;
 }
 
+.blogs-list li {
+    margin-top: 5%;
+    border-bottom: 0.5px dashed #ffffff;
+}
+
+.blogs-list li p {
+    font-style: italic;
+}
+
+.btn-back {
+    padding: 5px;
+    background-color: #7a47aa;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.btn-back:hover {
+    border: 1px solid #7a47aa;
+    background-color: #ffffff;
+    color: #7a47aa;
+    text-decoration: none;
+}
