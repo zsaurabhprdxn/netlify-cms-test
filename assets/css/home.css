@@ -1,0 +1,26 @@
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-nav {
+    width: 30%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #643864;
+    color: #ffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.box-nav:hover {
+    border: 1px solid #643864;
+    background-color: #ffff;
+    color: #643864;
+    text-decoration: none;
+}
+

@@ -4,9 +4,14 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
 
+# when using the default proxy server port
+local_backend: true
+
 media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
 publish_mode: editorial_workflow
+
+logo_url: favicon.ico
 
 collections:
   - name: "posts"
@@ -19,5 +24,18 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "desc", widget: "string" }
       - { label: "Date", name: "date", widget: "date", default: "" }
+      - { label: "Post Author", name: "author", widget: "relation", collection: "authors", search_fields: ["title", "genre"], value_field: "title", display_fields: ["title","genre"] }
       - { label: "Post Body", name: "body", widget: "markdown" }
       - { label: "Featured Image", name: "baseImage", widget: "image" }
+  - name: "authors"
+    label: "Authors"
+    folder: "authors"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/author.njk"}
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "string" }
+      - { label: "Genre", name: "genre", widget: "string" }
+      - { label: "Author body", name: "body", widget: "markdown" }    
+      - { label: "Display image", name: "profileImg", widget: "image" }

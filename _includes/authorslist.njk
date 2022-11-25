@@ -1,0 +1,20 @@
+<ul class='authors-list'>
+    {% for author in authorslist %}
+    <li>
+        <figure>
+            <img src='{{author.data.profileImg}}' title='{{ author.data.title }}'>
+        </figure>
+       
+       <div class="author-content">
+            <h3>
+                {{ author.data.title }}
+            </h3>
+            <em>{{ author.data.genre }}</em>
+            <p>
+                {{ author.data.bio }}
+            </p>
+            <a href='{{ author.url | url }}' title='{{ author.data.title }}'>more details</a>
+       </div>
+    </li>
+    {% endfor %}
+</ul>

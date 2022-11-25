@@ -5,6 +5,7 @@ desc: Spicy jalapeno bacon ipsum dolor amet officia ground round id laboris,
   andouille ribeye culpa strip steak exercitation sausage nisi irure labore
   drumstick.
 date: 2022-10-09T18:30:00.000Z
+author: Stephen King
 baseImage: https://images.unsplash.com/photo-1494059980473-813e73ee784b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80
 ---
 Spicy jalapeno bacon ipsum dolor amet venison andouille flank short loin, capicola meatball meatloaf pork belly pig bacon kielbasa ball tip. Corned beef jowl shoulder, rump ribeye burgdoggen shank frankfurter swine. Biltong short loin short ribs meatball boudin pork loin tail pork chop filet mignon pork. Ham shoulder andouille shank porchetta. Meatloaf rump andouille spare ribs kevin landjaeger buffalo tri-tip.
